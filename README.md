@@ -1,0 +1,1 @@
+ResumeAsAnAPI is a node.js based API endpoint for presenting a resume in JSON format.  The format used, jsonresume, is an Open Source development currently being developed, and is the emerging standard for JSON based resume formatting.  This program is in action at the following URL: http://54.68.92.141:3001/
