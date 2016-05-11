@@ -1,9 +1,12 @@
 {
-    "name": "ResumeAsAnAPI",
-    "description": "JSON formatted resume API endpoint with Node",
-    "version": "0.0.1",
-    "private": true,
-    "dependencies": {
-	"express": "3.x"
-    }
+  "name": "ResumeAsAnAPI",
+  "description": "JSON formatted resume API endpoint with Node",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x"
+  },
+  "devDependencies": {
+    "mongoose": "~4.4.16"
+  }
 }

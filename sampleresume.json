@@ -71,37 +71,40 @@
 	"website": "http://publication.com",
 	"summary": "Description..."
     }],
-    "skills": [{
-	"name": "Web Development",
-	"level": "Master",
-	"keywords": [
-	    "HTML",
-	    "CSS",
-	    "node.js",
-	    "Express",
-	    "Handlebars",
-	    "Jade"
-	],	
-	"name": "Operating Systems",
-	"level": "Master",
-	"keywords": [
-	    "RHEL",
-	    "OSX",
-	    "Windows",
-	    "CentOS",
-	    "Wind River Linux",
-	    "Amazon Linux",
-	    "Ubuntu"
-	],
-	"name": "Programming Languages",
-	"level": "Proficient",
-	"keywords": [
-	    "C",
-	    "C++",
-	    "Java",
-	    "Javascript",
-	    "Python"
-    }],
+    "skills": [
+	{
+	    "name": "Web Development",
+	    "level": "Master",
+	    "keywords": [
+		"HTML",
+		"CSS",
+		"node.js",
+		"Express",
+		"Handlebars",
+		"Jade"
+	    ]},
+	{
+	    "name": "Operating Systems",
+	    "level": "Master",
+	    "keywords": [
+		"RHEL",
+		"OSX",
+		"Windows",
+		"CentOS",
+		"Wind River Linux",
+		"Amazon Linux",
+		"Ubuntu"
+	    ]},
+	{
+	    "name": "Programming Languages",
+	    "level": "Proficient",
+	    "keywords": [
+		"C",
+		"C++",
+		"Java",
+		"Javascript",
+		"Python"
+	    ]}],
     "languages": [{
 	"name": "English",
 	"level": "Native speaker"
@@ -117,4 +120,4 @@
 	"name": "Jeffrey Whissen",
 	"reference": "Intel Coworker"
     }]
-}
+	      }

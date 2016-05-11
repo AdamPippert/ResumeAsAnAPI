@@ -1,5 +1,7 @@
 module.exports = function(app){
     var resumes = require('./controllers/resumes.js');
+
+    app.get('./import', resumes.import);   
     app.get('/resumes', resumes.findAll);
     app.get('/resumes/:id', resumes.findById);
     app.post('/resumes', resumes.add);

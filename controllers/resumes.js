@@ -1,3 +1,6 @@
+// Loading the sample resume file to import for initial operation of the application.
+var firstRes = require('../sampleresume.json');
+
 require('../models/resume.js');
 var mongoose = require('mongoose'),
     Resume = mongoose.model('Resume');
@@ -7,11 +10,6 @@ var mongoose = require('mongoose'),
 // ----------------
 // * BEGIN import
 // import function loads the sample resume file.  To add more resumes, use the add function.
-var firstRes;
-$.getJSON('sampleresume.json', function(response){
-    firstRes = response;
-    alert(firstRes.property);
-})
 
 exports.import = function(req, res){
     Resume.create(
