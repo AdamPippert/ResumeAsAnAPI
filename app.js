@@ -1,10 +1,22 @@
-var express = require('express');
+var express = require('express'),
+    mongoose = require('mongoose'),
+    fs = require('fs');
+
+var mongoUri = 'mongodb://localhost/resumes';
+mongoose.connect(mongoUri);
+var db = mongoose.connection;
+db.on('error', function () {
+    throw new Error('unable to connect to database at ' + mongoUri);
+});
+
 var app = express();
 
+app.configure(function(){
+    app.use(express.bodyParser());
+});
+
+require('./models/resume');
 require('./routes')(app);
 
-app.get('/', function(req, res) {
-    res.send('Resume As An API\nTo use, add /resumes/name for a resume (e.g. "/resumes/AdamPippert")');
-});
 app.listen(3001);
 console.log('Listening on port 3001...');
