@@ -1,0 +1,41 @@
+---
+name: Adam Pippert
+headline: Principal Solutions Architect • Red Hat
+contact:
+  email: adam.pippert@gmail.com
+  phone: "(503) 840‑2152"
+  location: Beaverton, Oregon, USA
+  website: https://adampippert.com
+summary: >-
+  Adam is a Principal Solutions Architect at Red Hat who helps major telecom
+  providers automate network infrastructure with Ansible & OpenShift. His
+  AI‑powered side projects showcase innovative orchestration and DevOps tooling.
+skills:
+  - Ansible Automation Platform
+  - Kubernetes / OpenShift
+  - Python & FastAPI
+  - AI agent frameworks (crew.ai, AutoGen)
+  - Telco NFV / 5G core automation
+experience:
+  - company: Red Hat
+    title: Principal Solutions Architect
+    start: 2018‑11
+    end: Present
+    summary: Partner with tier‑1 telcos to build production‑grade automation.
+    highlights:
+      - Delivered multi‑cluster OpenShift CI/CD for a major US cellular carrier
+      - Authored reference Ansible Collection adopted by 5+ global operators
+  - company: DellEMC
+    title: Senior Systems Engineer
+    start: 2016‑06
+    end: 2018-10
+    summary: Led storage automation initiatives and DevOps transformation for PNW Enterprise customers.
+    highlights:
+      - Reduced deployment time of storage  nodes from days to minutes
+education:
+  - institution: Oregon State University
+    degree: B.S.
+    field: Computer Science
+  - institution: Roanoke College
+    degree: B.A.
+    field: Music

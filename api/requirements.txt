@@ -1,0 +1,7 @@
+email-validator
+fastapi
+uvicorn[standard]
+pyyaml
+pydantic
+pytest
+httpx
