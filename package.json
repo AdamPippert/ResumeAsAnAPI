@@ -7,6 +7,6 @@
     "express": "3.x"
   },
   "devDependencies": {
-    "mongoose": ">=5.13.20"
+    "mongoose": "^9.11.4"
   }
 }
